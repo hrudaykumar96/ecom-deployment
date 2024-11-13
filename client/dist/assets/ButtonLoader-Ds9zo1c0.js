@@ -1,0 +1,1 @@
+import{j as r}from"./index-02v5Kx9p.js";const e=()=>r.jsx(r.Fragment,{children:r.jsxs("button",{className:"btn btn-primary",type:"button",disabled:!0,children:[r.jsx("span",{className:"spinner-border spinner-border-sm","aria-hidden":"true"}),r.jsx("span",{role:"status",children:" please wait..."})]})});export{e as B};

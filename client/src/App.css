@@ -5,7 +5,7 @@
     text-transform: capitalize;
     outline: none;
     border: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif, 'Times New Roman';
     user-select: none;
   }
   a {
