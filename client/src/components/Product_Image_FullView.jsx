@@ -14,7 +14,7 @@ const Product_Image_FullView = React.memo(({data}) => {
   <div className="carousel-inner">
     { data?.success?.images?.length && data?.success?.images?.map((image,index)=>(
           <div className={`carousel-item ${index === 0 ? 'active' : ''}`} key={index}>
-    <img src={`https://ecom-lwfl.onrender.com:3000/${image}`} className="d-block w-100" style={{cursor:'pointer', imageRendering:'pixelated', height:'268px'}} alt="..." loading='lazy' data-bs-toggle="modal" data-bs-target="#imageModal"/>
+    <img src={`https://ecom-lwfl.onrender.com/${image}`} className="d-block w-100" style={{cursor:'pointer', imageRendering:'pixelated', height:'268px'}} alt="..." loading='lazy' data-bs-toggle="modal" data-bs-target="#imageModal"/>
         </div>
     ))}
   </div>

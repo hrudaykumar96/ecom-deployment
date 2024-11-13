@@ -55,7 +55,7 @@ const Cart_Items = React.memo(({ cart_loading, cart_data }) => {
               <div className="col-md-4">
                 <Link to={`/description/${product.product?._id}`}>
                   <img
-                    src={cart_loading ? imageloader : `https://ecom-lwfl.onrender.com:3000/${product.product?.images[0]}`}
+                    src={cart_loading ? imageloader : `https://ecom-lwfl.onrender.com/${product.product?.images[0]}`}
                     className="img-fluid rounded-start w-100"
                     style={{ height: "300px", objectFit: "fill", imageRendering: 'pixelated' }}
                     alt={product?.product?.name || "Product Image"}

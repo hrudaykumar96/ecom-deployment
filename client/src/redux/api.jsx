@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-const url = 'https://ecom-lwfl.onrender.com:3000'
+const url = 'https://ecom-lwfl.onrender.com'
 
 
 /* signup user */

@@ -89,7 +89,7 @@ const Mensection = React.memo(({filterData, search}) => {
 <div className="col" key={index}>
           <Link className="card h-100" to={`/description/${product?._id}`}>
             <img
-src={loading ? imageloader : `https://ecom-lwfl.onrender.com:3000/${product?.images[0]}`}
+src={loading ? imageloader : `https://ecom-lwfl.onrender.com/${product?.images[0]}`}
               className="card-img-top"
               alt="..."
               loading="lazy"

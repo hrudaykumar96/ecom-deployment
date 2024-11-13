@@ -60,7 +60,7 @@ const Orders = React.memo(() => {
                   <div className="col-md-4" key={itemIndex}>
                     <Link to={`/description/${item.product?._id || ''}`}>
                       <img
-                        src={loading ? imageloader : `https://ecom-lwfl.onrender.com:3000/${item.product?.images[0]}`}
+                        src={loading ? imageloader : `https://ecom-lwfl.onrender.com/${item.product?.images[0]}`}
                         className="img-fluid rounded-start w-100"
                         style={{ height: '403px', objectFit: 'fill' }}
                         alt={item.product?.name || "Product Image"}

@@ -65,7 +65,7 @@ const Product_info = React.memo(({ loading, data }) => {
                     key={index}
                   >
                     <img
-                      src={`https://ecom-lwfl.onrender.com:3000/${image}`}
+                      src={`https://ecom-lwfl.onrender.com/${image}`}
                       className="d-block w-100"
                       style={{
                         cursor: "pointer",
