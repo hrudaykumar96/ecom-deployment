@@ -22,7 +22,7 @@ const app = express();
 
 /* middlewares */
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://ecom-deployment-o1ub.onrender.com',
 }));
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
