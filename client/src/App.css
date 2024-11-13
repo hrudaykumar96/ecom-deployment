@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  ::placeholder {
+    text-transform: capitalize;
+  }
+  button{
+    text-transform: capitalize;
+  }
+  .box{
+    width: 25%;
+  }
+  @media(max-width:770px){
+    .box{
+      width: 50%;
+    }
+  }
+  @media(max-width:370px){
+    .box{
+      width: 100%;
+    }
+  }
+  .modal .carousel img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+  input[type='email'], input[type='password']{
+    text-transform: none;
+  }
